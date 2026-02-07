@@ -1,4 +1,4 @@
-number1 = float(input("Enter first number: "))
+num1 = float(input("Enter first number: "))
 num2 = float(input("Enter second number: "))
 userOperator = (input("Please enter the operation you with to do: (+, -, *, /)"))
 if (userOperator == "+")
@@ -10,3 +10,13 @@ elif userOperator == "/":
         print("Error: Division by zero")
     else:
         print(float(num1) / float(num2))
+
+from unittest import result
+
+
+def multiply(a, b):
+    return a * b
+
+if userOperator == "*":
+    result = multiply(num1, num2)   
+    print("The result is:", result)
