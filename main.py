@@ -6,3 +6,20 @@ if(userOperator == "+"):
 elif(userOperator == "-"):
     print(num1 - num2)
 
+
+
+elif userOperator == "/":
+    if num2 == 0:
+        print("Error: Division by zero")
+    else:
+        print(float(num1) / float(num2))
+
+from unittest import result
+
+
+def multiply(a, b):
+    return a * b
+
+if userOperator == "*":
+    result = multiply(num1, num2)   
+    print("The result is:", result)
