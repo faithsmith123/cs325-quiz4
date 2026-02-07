@@ -13,3 +13,13 @@ elif userOperator == "/":
         print("Error: Division by zero")
     else:
         print(float(num1) / float(num2))
+
+from unittest import result
+
+
+def multiply(a, b):
+    return a * b
+
+if userOperator == "*":
+    result = multiply(num1, num2)   
+    print("The result is:", result)
